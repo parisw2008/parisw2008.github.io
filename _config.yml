@@ -1,2 +1,3 @@
 name:Paris Wright, AFSE student
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
