@@ -1,6 +1,6 @@
 ---
 layout: post
-title: paris wright first blog post
+title: paris wright blog post
 date: 2018-10-13
 ---
 
