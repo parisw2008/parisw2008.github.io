@@ -1,6 +1,6 @@
 ---
 layout: post
-title: paris wright 3rd blog post
+title: paris wright blog post
 date: 2018-10-06
 ---
 
