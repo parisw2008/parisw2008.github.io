@@ -1,6 +1,6 @@
 ---
 layout: post
-title: paris wright, weekly reflection#2
+title: paris wright blog post
 date: 2018-9-28
 ---
 
