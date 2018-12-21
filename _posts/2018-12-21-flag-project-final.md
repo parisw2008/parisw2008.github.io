@@ -4,18 +4,18 @@ title: "Flag Project - Final Submission"
 date: 2018-12-21
 ---
 
-## Flag of _insert your country_ by _insert your name_
+## Flag of _sweden_by paris wright
 
 ## Describe your program
 
--   What country did you design for? _then delete this instruction_
--   What grade do you expect? _then delete this instruction_
+-   What country did you design for? 
+-   What grade do you expect? 
 
-<!--- Delete this comment and add your writing -->
+<!--- I am designing the flag for sweden. I expect at least a apprentice.
 
 ## Current output
 
--   Insert an image that your program currently produces. _then delete this instruction_
+-   
 
 * * *
 ![Flag](/images/final-flag.png)
@@ -23,9 +23,8 @@ date: 2018-12-21
 
 ## Describe your process.
 
--   What questions, strategies, help from peers or teacher, or thinking got you to this point? _then delete this instruction_
+- I had to ask a lot of questions to finish this program. I had to ask what put image was and how i could put three images into one image. Really, my biggest challenge was trying to put three images in one and not get frustrated every few minutes because computer science is the hardest subject ive ever did.
 
-<!--- Delete this comment and add your writing -->
 
 
 ## Explain your code.
@@ -36,8 +35,7 @@ date: 2018-12-21
 
 * * *
 
-```
-Insert 10-15 line code section here _then delete this instruction_
+```  (define base (scale .4(rectangle width height "solid" "blue")))
 ```
 
 * * *
@@ -45,11 +43,19 @@ Insert 10-15 line code section here _then delete this instruction_
 -   Explain the code you posted by telling us about each argument.
 -   Then tell us how your code section fits into the whole.
  
-<!--- Delete this comment and add your writing -->
+I was writing this function to program the base of the flag( the image where the other images will be put on). i wrote scale *4 because the flag was very small for sum reason, i never figured out why to be honest. the rest of the function is just a contract being written to describe the base and how it will look.
 
 
 ## Program code
 
 ```
-Insert entire program here _then delete this instruction_
+(define size 100)
+(define width(* 15 size))
+(define height (* 10 size))
+(define yellow-height (* height 1/5))
+(define yellow-width (* height 1/6))
+(define base (scale .4(rectangle width height "solid" "blue")))
+(define yellow-stripe (scale .4(rectangle width yellow-height "solid" "yellow")))
+(put-image yellow-stripe 300 200 (put-image (rectangle 100 800 "solid" "yellow") 200 30 base))
+
 ```
